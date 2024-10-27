@@ -1,0 +1,31 @@
+
+.video-details{
+    display: flex;
+}
+.video-shape{
+    border-radius: 10px;
+}
+.title{
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.channel{
+    display: flex;
+    flex-direction: column;
+}
+.channel-id{
+    margin-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.views{
+
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.uploadDate{
+    font-family: 'Times New Roman', Times, serif;
+
+}

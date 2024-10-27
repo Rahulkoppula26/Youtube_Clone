@@ -1,0 +1,139 @@
+.entire-page{
+    display: flex;
+    overflow-y: scroll;
+}
+.center-video{
+    overflow-y: scroll;
+}
+.Play-video{
+    margin-top: 5%;
+    margin-left: 4rem;
+}
+.inner-video{
+    margin-top: 2rem;
+    border-radius:1rem;
+}
+.title-name{
+    font-weight: 600;
+    font-size: large;
+}
+.channel-data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.channel-data1{
+    width:300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Subscribe{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3rem;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.channel-data2{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.video-likes{
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 3rem;
+    padding: 10px;
+    font-size: medium;
+    
+}
+.views-data{
+    font-weight: 600;
+    margin-right: 5px;
+}
+.uploadDate-data{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.desc-container{
+    background-color: rgb(235, 236, 237);
+    width: 100%;
+    padding: 1rem;
+    border-radius:1rem;
+    margin-top: 1rem;
+}
+.comment-section{
+}
+.user-id{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600 ;
+}
+.comment-text{
+    font-family: 'Times New Roman', Times, serif;
+}
+.thumbs{
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.all-comments{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+}
+.options button{
+    border: none;
+    border-radius: 5px;
+}
+.option-buttons{
+    display: flex;
+}
+.option-buttons button{
+    margin-right: 5px;
+    border: none;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+@media screen and (max-width:1450px){
+   .entire-page{
+    width: 100%;
+    margin-right: 5%;
+   }
+   .inner-video{
+    width: 800px;
+   }
+   .main-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+}
+@media screen and (max-width:1400px){
+    .inner-video{
+        width: 800px;
+        margin-top: 0;
+    }
+    .entire-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+ }
+@media screen and (max-width:1050px){
+    .main-video video{
+        width: 600px;
+    }
+}

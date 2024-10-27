@@ -1,0 +1,71 @@
+.account-data{
+    display: flex;
+    margin-left: 10%;
+}
+.image1{
+    border-radius: 1rem;
+}
+.channel-info{
+    height: 300px;
+    margin: 0 20% 0 0;
+}
+.navigation{
+    display: flex;
+    margin:0 10%;
+    list-style-type: none;
+    border-bottom: 0.1px solid rgb(201, 196, 196);
+}
+.navigation li{
+    margin-left: 4rem;
+    font-size: medium;
+}
+.navigation li:nth-child(2){
+    font-weight: 900;
+    border-bottom: 4px solid black;
+}
+.popularity{
+    display: flex;
+    margin-left:15%;
+    margin-top: 1rem;
+
+}
+.popularity1,.popularity2,.popularity3{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0 10px;
+    font-weight: 600;
+    margin-right: 2rem;
+
+}
+.popularity2,.popularity3{
+    background-color: rgb(243, 238, 238);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    border: none;
+    padding: 0 10px;
+    font-weight: 600;
+    margin-right: 2rem;
+}
+.all-videos-channel{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10%;
+    margin-top: 2rem;
+}
+.each-videos-channel{
+    
+}
+.channel{
+    width: 300px;
+}
+.all-channel-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+}
